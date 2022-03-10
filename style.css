@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
+    /* position: fixed; */
+    z-index: 1;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p a{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: rgb(162, 211, 157);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+
+nav ul li a:hover{
+    color: #c0d96f;
+}
+
+.h11{
+    padding: 160px 0 0 0;
+    text-align: center;
+    color: rgb(162, 211, 157);
+    font-size: 70px;
+}
+
+span{
+    color: #505d61;
+}
+
+.sub{
+    padding: 60px 0 0 0;
+    text-align: center;
+    color: rgb(162, 211, 157);
+    font-size: 40px;
+}
+#img1{
+    margin: 0 0 0 35%;
+}
+
+/* About me */
+
+.no{
+    padding: 0 0 70px 0;
+}
+
+.bondpaper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    /* border: black solid 1px; */
+    /* height: 800px; */
+    width: 1150px;
+    padding: 20px 0 -500px 0;
+}
+
+#img{
+  width: 250px;
+  height: 450px;
+  border-radius: 20px;
+  margin: 0 0 0 60px;
+}
+
+.hr1{
+    width: 50%;
+    margin: auto;
+}
+
+.name{
+    margin: 0 0 20px 85px;
+}
+
+i{
+    margin: 10px 0 0 30px;
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.content{
+    margin: -160px 50px 500px 0;
+}
+
+.about{
+    padding: 170px 0 0 0;
+    
+    color: rgb(162, 211, 157);
+    font-size: 35px;
+}
+
+.educ{
+    padding: 20px 0 0 0;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6{
+    padding: 20px 0 0 0;
+}
+
+.div1{
+    
+}
+
+.scroll-div{
+    width: 700px;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: wheat;
+}
+
+.scroll-object{
+    
+    padding: 15px;
+}
+
+.scroll-object hr{
+    border: black 2px solid;
+}
+
+
+
+/* skills */
+
+.bondpaper2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: auto;
+        border: black solid 1px;
+        /* height: 800px; */
+        width: 1150px;
+        padding: 20px 0 -500px 0;
+}
+
+.skills{
+    margin: 20px 0 0 500px;
+    border: 1px solid black;
+}
